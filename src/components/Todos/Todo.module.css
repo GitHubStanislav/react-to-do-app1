@@ -1,24 +1,24 @@
 .todo {
-    display: flex;
-    align-items: center;
-    height: 40px;
-    padding: 10px 20px;
-    margin: 15px 0;
-    font-size: 1.5rem;
-    border-radius: 5px;
-    border: 2px solid #555;
-    color: #112d49;
-    background-color: #fbfef9;
-    user-select: none;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 10px 20px;
+  margin: 15px 0;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: 2px solid #555;
+  color: #112d49;
+  background-color: #fbfef9;
+  user-select: none;
 }
 
 .todoText {
-display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
-.reactIcon{
-    color: yellowgreen;
-    display: block;
-    margin-right: 15px;
-    font-size: 30px;
+.reactIcon {
+  color: yellowgreen;
+  display: block;
+  margin-right: 15px;
+  font-size: 30px;
 }
