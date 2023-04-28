@@ -16,6 +16,7 @@ function App() {
   }
   return (
       <div className="App">
+       <h1>Todo App 1</h1>
         <TodoForm addTodo ={addTodoHandler}/>
         <TodoList todos={todos} deleteTodo={deleteTodoHandler}/>
       </div>
