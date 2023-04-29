@@ -12,7 +12,7 @@ function TodoForm({ addTodo }) {
     <div className={styles.todoFormContainer}>
       <form onSubmit={onSubmitHandler}>
           <input
-            onChange={(event) => setText(event.target.value)}
+            onChange={event => setText(event.target.value)}
             value={text}
             type="text"
             placeholder="Enter new todo "
