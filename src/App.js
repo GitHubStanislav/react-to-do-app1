@@ -3,6 +3,7 @@ import { v4 as uuidv4 } from "uuid";
 import "./App.css";
 import TodoForm from "./components/Todos/TodoForm";
 import TodoList from "./components/Todos/TodoList";
+import TodosActions from "./components/Todos/TodosActions";
 
 function App() {
   const [todos, setTodos] = useState([]);
@@ -26,10 +27,20 @@ function App() {
       })
     );
   };
+  const resetTodosHandler = () => {
+    setTodos([]);
+  };
+  const deleteCompletedTodosHandler = () => {
+    setTodos(todos.filter((todo) => !todo.isCompleted));
+  };
   return (
     <div className="App">
       <h1>Todo App 1</h1>
       <TodoForm addTodo={addTodoHandler} />
+      <TodosActions
+        resetTodos={resetTodosHandler}
+        deleteCompletedTodos={deleteCompletedTodosHandler}
+      />
       <TodoList
         toggleTodo={toggleTodoHandler}
         todos={todos}
