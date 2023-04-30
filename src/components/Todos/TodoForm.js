@@ -18,7 +18,7 @@ function TodoForm({ addTodo }) {
           type="text"
           placeholder="Enter new todo "
         />
-        <Button type="submit"> Submit</Button>
+        <Button type="submit" title='Submit'> Submit</Button>
       </form>
     </div>
   );
