@@ -18,7 +18,7 @@ display: flex;
   width: 100%;
 }
 .todoIcon {
-  color: yellowgreen;
+  color: darkslategrey;
   margin-right: 15px;
   font-size: 1.8rem;
 }

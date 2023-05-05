@@ -17,7 +17,7 @@ function TodoForm({ addTodo }) {
       setText("");
     } else {
       setTextEmpty(true);
-      setPlaceholder("please enter some text");
+      setPlaceholder("please enter some text...");
     }
   };
   return (
