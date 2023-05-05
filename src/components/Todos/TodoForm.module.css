@@ -30,3 +30,9 @@
   border: none;
   border-radius: 5px;
 }
+
+.placeholderUpdated::placeholder {
+  color: slategrey;
+  font-style: italic;
+}
+
