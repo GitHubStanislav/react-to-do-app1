@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4745aefd-532e-40a2-9bf0-3ad3aa4f1aa6" name="Changes" comment="" />
+    <list default="true" id="4745aefd-532e-40a2-9bf0-3ad3aa4f1aa6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +40,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/G512Li/Desktop/reactTest/react-cost-accounting",
+    "last_opened_file_path": "C:/Users/G512Li/Desktop/reactTest/react-to-do-app1",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -97,6 +99,7 @@
       <workItem from="1683144391211" duration="55000" />
       <workItem from="1683144484810" duration="61000" />
       <workItem from="1683144554846" duration="505000" />
+      <workItem from="1692039689613" duration="2373000" />
     </task>
     <servers />
   </component>

@@ -8,6 +8,9 @@ import TodosActions from "./components/Todos/TodosActions";
 function App() {
   const [todos, setTodos] = useState([]);
   const addTodoHandler = (text) => {
+    if (text.trim() === '') {
+      return;
+    }
     const newTodo = {
       text: text,
       isCompleted: false,
